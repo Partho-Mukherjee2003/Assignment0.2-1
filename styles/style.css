@@ -1,0 +1,83 @@
+
+/*------- Font section ---------*/
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* Header Section */
+.header{
+  background-image: url('../assets/Hero-bg.png');
+
+}
+
+
+/*------------- Nav Section ----------*/
+nav a {
+text-decoration: none;
+border: none;
+color: #4E47FF;
+font-weight: 900;
+font-size: 34px;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-------- Banner Section---------- */
+.banner{
+  align-items: center;
+  text-align: center;
+  margin: 158px 152px;
+}
+
+
+.banner-h1{
+  font-size: 65px;
+  font-weight: bold;
+  
+}
+
+
+/*------------ Share section ----------------*/
+/* button */
+.share-btn{
+  background-color:#4E47FF ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight:bold ;
+  cursor: pointer;
+  
+}
+.share-btn:hover{
+  background-color: white;
+  color:#4E47FF;
+  border: 1px solid #4E47FF;
+}
+
+/* see Section */
+
+.see-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.see-right-h1{
+  font-size: 42px;
+  font-weight: bold;
+}
+.see-right-p{
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+}
+.see-left img{
+  border-radius: 48px;
+}
