@@ -148,7 +148,7 @@ nav{
   justify-content: space-between;
 }
 
-.form-input input[type=text],[type=email],button{
+.form-input input[type=text],[type=email]{
   width: 490px;
   height: 70px;
   font-size: 20px;
@@ -167,4 +167,34 @@ width: 490px;
 }
 .form-input button{
   margin-top: 20px;
+}
+#btn{
+  width: 490px;
+  height: 70px;
+}
+
+
+
+
+
+
+/* footer  */
+.footer{
+  text-align: center;
+  max-width: 531px;
+  margin: 0px auto;
+}
+
+.home a{
+text-decoration: none;
+
+}
+
+.footer-h1{
+  color: #4E47FF;
+  font-size: 100px;
+}
+.home{
+  display: flex;
+  justify-content: space-evenly;
 }
