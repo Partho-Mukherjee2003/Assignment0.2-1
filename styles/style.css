@@ -148,3 +148,23 @@ nav{
   justify-content: space-between;
 }
 
+.form-input input[type=text],[type=email],button{
+  width: 490px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding-left:25px;
+}
+#textarea{
+width: 490px;
+  height: 135px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.form-input button{
+  margin-top: 20px;
+}
